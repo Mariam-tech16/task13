@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="css/bootstrap.min.css"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar row ">
+            <div class="logo text-white d-flex col-md-2">
+                <img src="logo@2x.png">
+                <div class="ms-2">
+                    <h5>Weather</h5>
+                    <p>tagline goes here</p>
+                </div>
+            </div>
+            <div class="col-md-7 lista">
+                <ul class="list-unstyled d-flex justify-content-around">
+
+                    <li class="activee"><a class="text-decoration-none " href="home">Home</a></li>
+                    <li><a class="text-decoration-none" href="news">News</a></li>
+                    <li><a class="text-decoration-none" href="live">Live cameras</a></li>
+                    <li><a class="text-decoration-none" href="photos">Photos</a></li>
+                    <li><a class="text-decoration-none" href="contact">Contact</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="middlepart">
+        <div class="main">
+            <div class="container  py-5">
+                <form class="find-location">
+                    <input type="text" placeholder="Find your location..." id="search">
+                    <input type="button" value="Find" id="submit">
+                </form>
+            </div>
+            <div class="forecasting row  rows container mx-auto justify-content-center">
+                <div class="col-md-4 today text-white rows">
+                    <div class="header d-flex justify-content-between">
+                        <p id="toddate">Thursday</p>
+                        <p id="maindate">12 december</p>
+                    </div>
+                    <div class="content text-white">
+                        <p id="city">Cairo</p>
+                        <p class=" degree fw-bolder">20oC</p>
+                        <button class="btn btn-secondary" id="checkfahren">Change to Fahrenheit</button>
+                        <button id="checkcelsius" class="btn btn-primary d-none" >Change to celsius</button>
+                        <div id="feelslike" class="fs-3"></div>
+                        <div id="humidity"></div>
+                        <img src="116.png" id="icon">
+                        <div class="text-info" id="condition">Partly cloudy</div>
+                        <span><img src="icon-umberella.png" alt="">20%</span>
+                        <span><img src="icon-wind.png" alt="">18km/h</span>
+                        <span><img src="icon-compass.png" alt="">East</span>
+                        <div id="last_updated" class="my-2 text-secondary" ></div>
+                     
+                    </div>
+
+                </div>
+                <div class="col-md-4 tommorow text-center text-white">
+                    <div class="header " id="tomdate">
+                        <p>Thursday</p>
+                    </div>
+                    <div class="content text-center">
+                        <img src=" 113.png"" width=" 48">
+                        <p class="fw-bolder fs-1" id="tommax">23.2oC</p>
+                        <p id="tomlow">14o</p>
+                        <p class="text-info"id="tetx1">sunny</p>
+                    </div>
+                </div>
+                <div class="col-md-4 aftertom text-center text-white">
+                    <div class="header " id="afterdate">
+                        <p>Thursday</p>
+                    </div>
+                    <div class="content text-center text-white">
+                        <img src="113.png"" width=" 48">
+                        <p class="fw-bolder fs-1"  id="aftermax">23.2oC</p>
+                        <p id="afterlow">14o</p>
+                        <p class="text-info" id="tetx2">sunny</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <last>
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <form action="#" class="subscribe-form">
+                            <input type="text" placeholder="Enter your email to subscribe...">
+                            <input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                    <div class="col-md-3 offset-1">
+                        <div class="social-links">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="text-secondary">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+        </footer>
+    </last>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

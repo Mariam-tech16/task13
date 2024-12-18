@@ -1,0 +1,172 @@
+:root {
+    --colorblue: #009ad8;
+    --colordark: #1e202b;
+
+
+}
+
+
+body {
+    background-color: var(--colordark);
+    height: 1000px;
+}
+
+.navbar {
+    background-color: transparent;
+    height: 150px;
+
+}
+
+.navbar p {
+    font-size: 10px;
+}
+
+.navbar img {
+    width: 60px;
+    height: 50px;
+}
+
+.lista a {
+    color: white;
+    padding: 5px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: all 0.5s
+}
+
+.lista li a:hover {
+    border-color: var(--colorblue);
+    color: var(--colorblue);
+}
+
+.activee a {
+    color: var(--colorblue);
+    border: 2px solid var(--colorblue);
+    border-radius: 30px;
+    padding: 5px 25px;
+}
+
+.middlepart {
+    height: 700px;
+}
+
+.main {
+    background-image: url(banner.png);
+    height: 350px;
+}
+
+.find-location input {
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+}
+
+#search {
+    outline: none;
+    border: none;
+    border-radius: 30px;
+}
+
+#submit {
+    height: 3rem;
+    width: 6rem;
+    left: 92%;
+    bottom: 55px;
+    padding: 0px 35px;
+    position: relative;
+    border-radius: 30px;
+    text-align: center;
+    outline: none;
+    border: none;
+    background-color: var(--colorblue);
+}
+
+.header {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.content {
+    padding: 50px 20px 10px;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.degree {
+    font-size: 80px;
+}
+
+.row>* {
+    padding: 0;
+}
+
+.header span {
+    margin-right: 20px;
+}
+
+.today {
+    background-color: #323544;
+}
+
+.tommorow {
+    background-color: #262936;
+}
+
+.aftertom {
+    background-color: #323544;
+
+}
+
+.site-footer {
+    background: #262936;
+    padding: 50px 0;
+}
+
+.site-footer .subscribe-form {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.site-footer .subscribe-form input[type="text"] {
+    padding: 20px 100px 20px 20px;
+    background: #1e202b;
+    width: 100%;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+}
+
+.site-footer .subscribe-form input[type="submit"] {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    border: none;
+    background: #009ad8;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+}
+
+.site-footer .social-links a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    transition: 0.3s ease;
+    text-align: center;
+    font-size: 25px;
+}
+
+.site-footer .social-links a:hover {
+    background-color: #009ad8;
+    color: white;
+}
